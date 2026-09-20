@@ -36,7 +36,7 @@ type Room = {
   notes: string[];
 };
 
-const ROOMS: Room[] = [
+const ROOMS: [Room, ...Room[]] = [
   {
     id: "corridor",
     name: "2 AM Corridor",
