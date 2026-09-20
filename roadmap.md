@@ -1,7 +1,9 @@
 # Hostel Radio roadmap
 
-- [x] Build the five-room single-page radio experience
-- [x] Add Spotify playlists and placeholder IDs with TODO markers
-- [x] Add rotating room-specific Hinglish lines
-- [x] Connect the live open-tab presence counter
-- [x] Verify mobile and desktop rendering, room switching, and Cloud presence
+- [ ] Replace abstract visuals with one generated hostel-life scene per room and typography-led layouts
+- [ ] Replace Spotify embeds with queued YouTube playback and retain Spotify save links
+- [ ] Add fan ambience, thali clang, chapter counter, cricket scoreboard, and torch mode
+- [ ] Add YouTube song search, full-screen video takeover, and live LRCLIB lyrics mode
+- [ ] Add anonymous play logging in Lovable Cloud
+- [ ] Preserve live presence and rotating room-specific Hinglish lines
+- [ ] Verify mobile and desktop layouts, playback controls, room switching, and graceful fallbacks
