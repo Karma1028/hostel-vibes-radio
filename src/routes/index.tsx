@@ -171,7 +171,7 @@ function Index() {
     setPlayerKey((key) => key + 1);
   };
 
-  const embedUrl = `https://open.spotify.com/embed/playlist/${activeRoom.playlistId}?utm_source=generator&theme=0&locale=en_US${isPlaying ? "&autoplay=1" : ""}`;
+  const embedUrl = `https://open.spotify.com/embed/playlist/${activeRoom.playlistId}?utm_source=generator&theme=0&locale=en-US${isPlaying ? "&autoplay=1" : ""}`;
 
   return (
     <main className="radio-shell" data-room={activeRoom.id}>
@@ -251,7 +251,7 @@ function Index() {
           <iframe
             key={`${activeRoom.id}-${playerKey}`}
             title={`${activeRoom.name} Spotify playlist`}
-            src={isPlaying ? embedUrl : `https://open.spotify.com/embed/playlist/${activeRoom.playlistId}?utm_source=generator&theme=0&locale=en_US`}
+            src={isPlaying ? embedUrl : `https://open.spotify.com/embed/playlist/${activeRoom.playlistId}?utm_source=generator&theme=0&locale=en-US`}
             width="100%"
             height="152"
             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
